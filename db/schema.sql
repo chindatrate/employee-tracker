@@ -19,7 +19,7 @@ create table department (
 create table role (
   id integer not null auto_increment,
   title varchar(30),
-  salary decimal (8, 2),
+  salary decimal (15, 2),
   department_id integer,
   primary key (id)
 );
